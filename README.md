@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ИИ-генератор причёсок (Astoria AI)
 
-# Run and deploy your AI Studio app
+Преобразите свой образ с помощью виртуального моделирования причёсок на базе ИИ. Профессиональный симулятор стрижек, доступный каждому.
 
-This contains everything you need to run your app locally.
+## Возможности
 
-View your app in AI Studio: https://ai.studio/apps/drive/1HS_ueDXdpJib0u_kT-7l3Ff4OHAuSI_y
+*   **Виртуальная укладка**: Примерьте разные причёски виртуально.
+*   **Множество стилей**: Сотни модных и классических причёсок.
+*   **Визуализация цвета**: Эксперименты с цветом волос без риска.
+*   **HD Качество**: Реалистичные результаты с сохранением черт лица.
 
-## Run Locally
+## Развертывание (Deployment)
 
-**Prerequisites:**  Node.js
+Вы можете развернуть это приложение в Vercel одним щелчком мыши:
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fenotkrutoy%2Fgeminit)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Настройка кнопки «Развернуть в Vercel»
+
+Эта кнопка позволяет развернуть приложение в Vercel одним щелчком мыши, что очень удобно. Однако обратите внимание:
+
+Если вы создали ответвление (fork) этого проекта и хотите развернуть свою собственную версию, вам необходимо обновить эту ссылку на кнопку в файле README.
+
+**Метод обновления:**
+Замените `enotkrutoy/geminit` в ссылке на ваше имя пользователя GitHub и имя репозитория.
+
+Например, если ваше имя пользователя GitHub — «yourname», вам следует изменить ссылку на кнопку следующим образом:
+
+`https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourname%2Fyour-repo`
+
+Это гарантирует, что кнопка «Развернуть в Vercel» развернет вашу разветвленную версию, а не исходный репозиторий.
+
+## Технологии
+
+*   React 19
+*   TypeScript
+*   Tailwind CSS
+*   Google Gemini API (@google/genai)
